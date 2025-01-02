@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="cbt.cucumber.RunCukesTest" time="35.131" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="cbt.cucumber.RunCukesTest" time="7.467" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\bin"/>
-    <property name="java.vm.version" value="25.392-b08"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\bin"/>
+    <property name="java.vm.version" value="25.432-b06"/>
     <property name="browser" value="chrome"/>
     <property name="java.vm.vendor" value="Temurin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\bertr\git\ui-testing\cucumber-java-selenium"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\GIT\cucumber-java-selenium"/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,10 +17,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\bertr\git\ui-testing\cucumber-java-selenium"/>
-    <property name="java.runtime.version" value="1.8.0_392-b08"/>
+    <property name="user.dir" value="C:\GIT\cucumber-java-selenium"/>
+    <property name="java.runtime.version" value="1.8.0_432-b06"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\bertr\AppData\Local\Temp\"/>
     <property name="line.separator" value="
@@ -28,42 +28,42 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Selenium\apache-maven-3.8.6\bin\m2.conf"/>
-    <property name="TargetURL" value="https://10.60.213.235:8443/prweb/PRServlet/app/FlightManagementSolTest/"/>
+    <property name="classworlds.conf" value="C:\TA\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="TargetURL" value="https://lab-03254-bos.lab-internal.pega.com/prweb/app/FlightManagementSolTest/"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-18.0.2.101-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Selenium\apache-maven-3.8.6\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\bertr\AppData\Local\Microsoft\WindowsApps;C:\Users\bertr\AppData\Roaming\npm;C:\OpenSSL\bin;C:\Users\bertr\AppData\Local\atom\bin;C:\Users\bertr\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="maven.conf" value="C:\Selenium\apache-maven-3.8.6/conf"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\TA\apache-maven-3.8.6\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\bertr\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\bertr\AppData\Local\Programs\Python\Python312\;C:\Users\bertr\AppData\Local\Programs\Python\Launcher\;C:\Users\bertr\AppData\Local\Microsoft\WindowsApps;C:\Users\bertr\AppData\Roaming\npm;C:\OpenSSL\bin;C:\Users\bertr\AppData\Local\atom\bin;C:\Users\bertr\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\TA\apache-maven-3.8.6/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Selenium\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="library.jansi.path" value="C:\TA\apache-maven-3.8.6\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\bertr"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="password" value="Ziofa2023!"/>
+    <property name="password" value="Merda2024!"/>
     <property name="user.name" value="&quot;AUTUser@flightmgmt.com&quot;"/>
-    <property name="java.class.path" value="C:\Selenium\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\TA\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="username" value="AUTUser@flightmgmt.com"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="error"/>
     <property name="java.vm.specification.version" value="1.8"/>
-    <property name="SeleniumGridURL" value="http://192.168.1.203:5555/wd/hub"/>
+    <property name="SeleniumGridURL" value="http://localhost:5555/wd/hub"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -q -Dbrowser=chrome -DTargetURL=https://10.60.213.235:8443/prweb/PRServlet/app/FlightManagementSolTest/ -DSeleniumGridURL=http://192.168.1.203:5555/wd/hub -Dusername=AUTUser@flightmgmt.com -Dpassword=Ziofa2023!"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -q -Dbrowser=chrome -DTargetURL=https://lab-03254-bos.lab-internal.pega.com/prweb/app/FlightManagementSolTest/ -Dusername=AUTUser@flightmgmt.com -Dpassword=Merda2024! -DSeleniumGridURL=http://localhost:5555/wd/hub"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_392"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.392.8-hotspot\jre\classes"/>
+    <property name="java.version" value="1.8.0_432"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.432.6-hotspot\jre\classes"/>
     <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Temurin"/>
-    <property name="java.specification.maintenance.version" value="5"/>
-    <property name="maven.home" value="C:\Selenium\apache-maven-3.8.6"/>
+    <property name="java.specification.maintenance.version" value="6"/>
+    <property name="maven.home" value="C:\TA\apache-maven-3.8.6"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -72,5 +72,96 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Refund" name="Refund Platium" time="35.131"/>
+  <testcase classname="Refund" name="Refund Platium" time="7.467">
+    <error message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 131.0.6778.205 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;L42692WEU&apos;, ip: &apos;192.168.1.141&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_432&apos;
+Driver info: driver.version: unknown
+remote stacktrace: 	GetHandleVerifier [0x00007FF7C385B095+29557]
+	(No symbol) [0x00007FF7C37CFA50]
+	(No symbol) [0x00007FF7C368B56A]
+	(No symbol) [0x00007FF7C36CDDF7]
+	(No symbol) [0x00007FF7C36CCE8B]
+	(No symbol) [0x00007FF7C36C79AE]
+	(No symbol) [0x00007FF7C36C251E]
+	(No symbol) [0x00007FF7C3712F90]
+	(No symbol) [0x00007FF7C3712620]
+	(No symbol) [0x00007FF7C3706F33]
+	(No symbol) [0x00007FF7C36D116F]
+	(No symbol) [0x00007FF7C36D22D1]
+	GetHandleVerifier [0x00007FF7C3B8C96D+3378253]
+	GetHandleVerifier [0x00007FF7C3BD8497+3688311]
+	GetHandleVerifier [0x00007FF7C3BCD1CB+3642539]
+	GetHandleVerifier [0x00007FF7C391A6B6+813462]
+	(No symbol) [0x00007FF7C37DAB5F]
+	(No symbol) [0x00007FF7C37D6B74]
+	(No symbol) [0x00007FF7C37D6D10]
+	(No symbol) [0x00007FF7C37C5C1F]
+	BaseThreadInitThunk [0x00007FFA9820259D+29]
+	RtlUserThreadStart [0x00007FFA99A8AF38+40]
+ 
+Host info: host: &apos;L42692WEU&apos;, ip: &apos;192.168.1.141&apos;
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_432&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}, platformName: Windows 11}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}, platformName: Windows 11}}]
+Capabilities {}" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 131.0.6778.205 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;L42692WEU&apos;, ip: &apos;192.168.1.141&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_432&apos;
+Driver info: driver.version: unknown
+remote stacktrace: 	GetHandleVerifier [0x00007FF7C385B095+29557]
+	(No symbol) [0x00007FF7C37CFA50]
+	(No symbol) [0x00007FF7C368B56A]
+	(No symbol) [0x00007FF7C36CDDF7]
+	(No symbol) [0x00007FF7C36CCE8B]
+	(No symbol) [0x00007FF7C36C79AE]
+	(No symbol) [0x00007FF7C36C251E]
+	(No symbol) [0x00007FF7C3712F90]
+	(No symbol) [0x00007FF7C3712620]
+	(No symbol) [0x00007FF7C3706F33]
+	(No symbol) [0x00007FF7C36D116F]
+	(No symbol) [0x00007FF7C36D22D1]
+	GetHandleVerifier [0x00007FF7C3B8C96D+3378253]
+	GetHandleVerifier [0x00007FF7C3BD8497+3688311]
+	GetHandleVerifier [0x00007FF7C3BCD1CB+3642539]
+	GetHandleVerifier [0x00007FF7C391A6B6+813462]
+	(No symbol) [0x00007FF7C37DAB5F]
+	(No symbol) [0x00007FF7C37D6B74]
+	(No symbol) [0x00007FF7C37D6D10]
+	(No symbol) [0x00007FF7C37C5C1F]
+	BaseThreadInitThunk [0x00007FFA9820259D+29]
+	RtlUserThreadStart [0x00007FFA99A8AF38+40]
+ 
+Host info: host: &apos;L42692WEU&apos;, ip: &apos;192.168.1.141&apos;
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_432&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}, platformName: Windows 11}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}, platformName: Windows 11}}]
+Capabilities {}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:146)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:139)
+	at cbt.cucumber.Refund.setUp(Refund.java:55)
+</error>
+    <system-out>TargetURL =https://lab-03254-bos.lab-internal.pega.com/prweb/app/FlightManagementSolTest/
+SeleniumGridURL =http://localhost:5555/wd/hub
+Browser =chrome
+Username =AUTUser@flightmgmt.com
+Password =Merda2024!
+</system-out>
+    <system-err>Jan 02, 2025 1:25:46 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
 </testsuite>
